@@ -1,0 +1,13 @@
+
+["DragNSounds API Config"]
+	#If active, a file cleanup will be performed at server startup to clean up unreachable ('dead') files or empty folders.
+	cleanup_on_server_start = true
+
+	["DragNSounds API Config".permission]
+		#Minimum permission level required to use the basic features of the /sound command, such as playing, stopping and modifying sounds.
+		#Range: 0 ~ 4
+		sound_command_usage = 2
+		#Minimum permission level required to use all features of the /sound command, such as uploading and deleting sound files.
+		#Range: 0 ~ 4
+		sound_command_management = 3
+

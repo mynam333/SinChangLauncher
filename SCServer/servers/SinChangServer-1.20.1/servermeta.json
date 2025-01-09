@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/SCServer/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "신창서버 (Minecraft 1.20.1)",
+    "description": "쌀숭이 크악 씨이빨 바로 리선족 정상화 OUT!!",
+    "icon": "",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "정상화 당하는 중...",
+      "largeImageText": "너... 그런 거 하니?",
+      "largeImageKey": "maplestory"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.3.22"
+  },
+  "untrackedFiles": []
+}
