@@ -21,7 +21,7 @@
         "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/Localhost/discordicon.png"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.22",
@@ -458,7 +458,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1054094,
-            "url": "https://www.curseforge.com/api/v1/mods/658286/files/4613201/download",
+            "url": "https://www.curseforge.com/api/v1/mods/658286/files/4613497/download",
             "MD5": "fb16b053cc0eda55bb287c1aa926dcb5"
           }
         },
@@ -1047,7 +1047,7 @@
         "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/Localhost/discordicon.png"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.22",
@@ -1484,7 +1484,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1054094,
-            "url": "https://www.curseforge.com/api/v1/mods/658286/files/4613201/download",
+            "url": "https://www.curseforge.com/api/v1/mods/658286/files/4613497/download",
             "MD5": "fb16b053cc0eda55bb287c1aa926dcb5"
           }
         },
