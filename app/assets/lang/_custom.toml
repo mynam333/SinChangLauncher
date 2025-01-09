@@ -5,10 +5,10 @@ title = "SinChang Launcher"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/mynam333/SinChangLauncher"
-mediaTwitterURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaTwitterURL = "https://x.com/MapleStory_KR"
+mediaInstagramURL = "https://namu.wiki/w/%EC%A0%95%EC%83%81%ED%99%94(%EC%9D%B8%ED%84%B0%EB%84%B7%20%EB%B0%88)"
+mediaYouTubeURL = "https://www.youtube.com/results?search_query=%EC%B0%BD%ED%8C%9D"
+mediaDiscordURL = "https://maplestory.nexon.com/"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/mynam333/SinChangLauncher"
