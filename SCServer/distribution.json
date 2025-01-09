@@ -1046,7 +1046,7 @@
         "largeImageText": "젠장 또 신창섭이야, 나는 숭배해야만 해.",
         "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/Localhost/discordicon.png"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": true,
       "modules": [
         {
