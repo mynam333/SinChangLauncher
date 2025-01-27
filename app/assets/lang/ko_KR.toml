@@ -211,8 +211,8 @@ checkConsoleForDetails = "콘솔 (CTRL + Shift + i) 에서 자세한 내용을 �
 checking = "뉴스 확인 중"
 
 [js.landing.discord]
-loading = "신창섭 영접중.."
-joining = "정상화 당하는 중.."
+loading = "신창섭 영접중..."
+joining = "정상화 당하는 중..."
 joined = "신창섭의 은총과 함께하는 중!"
 
 [js.overlay]
