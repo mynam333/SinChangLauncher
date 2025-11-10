@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "rss": "https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fmaplestory.nexon.com%2FNews%2FNotice%2FAll&item=.news_board+li&item_desc=img+%40alt&item_date=dd&item_date_format=Y.m.d&max=20&order=document&guid=0",
   "discord": {
     "clientId": "1326861327423246396",
@@ -7,6 +7,1472 @@
     "smallImageKey": "maplestory"
   },
   "servers": [
+    {
+      "id": "sinchang2-1.21.1",
+      "name": "[개발중] 신창서버2",
+      "description": "팩트는 신창서버2 따잇하고 있다는거임",
+      "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/icon.png",
+      "version": "2.0.0",
+      "address": "devnetwork.dotsminestudio.kr:10016",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "신창서버2 에서 쌀 캐는 중...",
+        "largeImageText": "점유율이 늘고 접속자가 늘어♪ 나는 쌀 다 팜~ 난 이미 쌀 다 팜~",
+        "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/discordicon.png"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.0",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944012,
+            "MD5": "54ae672be359aec0a36411e60885634c",
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/fabric-loader/0.18.0/fabric-loader-0.18.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.0",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "11133d78b1d0eaf53fb219b9619965d3",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/versions/1.21.1-fabric-0.18.0/1.21.1-fabric-0.18.0.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fr.samlegamer:addonslib:1.21.1-1.8@jar",
+          "name": "AddonsLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123396,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/addonslib-fabric-1.21.1-1.8.jar",
+            "MD5": "7e729b939f2a752c9889fa4c094da9df"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.21-2.0.8@jar",
+          "name": "Amendments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1107124,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/amendments-1.21-2.0.8-fabric.jar",
+            "MD5": "4e278fdf1773eefa8a9c9462e00646f8"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform.fabric.proxy:armourers_workshop:3.2.7-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6218149,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/armourersworkshop-fabric-1.21.1-3.2.7-beta.jar",
+            "MD5": "238d60d81a74538418ecc6de953c2139"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:21.1.0@jar",
+          "name": "BetterCompatibilityChecker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28309,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/BetterCompatibilityChecker-fabric-21.1.0+mc1.21.1.jar",
+            "MD5": "5b327b01ffcdcaafe6c33f785a430b7d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:biomesoplenty:21.1.0.12@jar",
+          "name": "BiomesOPlenty",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22349823,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/BiomesOPlenty-fabric-1.21.1-21.1.0.12.jar",
+            "MD5": "15b80bc6ac658a1e32fd32b2454dfa06"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163711,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/caramelChat-mc1.21.1-fabric-1.2.2.jar",
+            "MD5": "59c8ae912459442c192ff5537bf17f7a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.21.1-1.3.8@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2956258,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/coroutil-fabric-1.21.1-1.3.8.jar",
+            "MD5": "10985dc4266677b6c603fe91e635bb30"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.13.14@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1239340,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/CreativeCore_FABRIC_v2.13.14_mc1.21.1.jar",
+            "MD5": "55809417ae7e3debcd15147198808a17"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.21-2.9@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23781,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/cupboard-fabric-1.21-2.9.jar",
+            "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:5.9.0@jar",
+          "name": "Easy NPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1630522,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/easy_npc-fabric-1.21.1-5.9.0.jar",
+            "MD5": "9fadf378d730b993ef7e58e7c61f96f6"
+          }
+        },
+        {
+          "id": "com.vsngarcia:elevatorid:1.21-1.11.1@jar",
+          "name": "ElevatorMod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185086,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/elevatorid-fabric-1.21-1.11.1.jar",
+            "MD5": "6046e099c6566ef6e419f3533d9cbea1"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471488,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entity_model_features_1.21-fabric-3.0.1.jar",
+            "MD5": "65fa7e106c04b6811820c11ecd7ffb1f"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.2@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 697674,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entity_texture_features_1.21-fabric-7.0.2.jar",
+            "MD5": "7801370edaf7b7f8e8e3818a8f1aa176"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 470161,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entityculling-fabric-1.9.3-mc1.21.1.jar",
+            "MD5": "d5128d6312eaead8146c05ea3904c41a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:euphoriapatcher:1.7.4-r5.6.1-fabric@jar",
+          "name": "EuphoriaPatcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2293584,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionaloff/EuphoriaPatcher-1.7.4-r5.6.1-fabric.jar",
+            "MD5": "bd07970ea2e09849bf22ed37e3387096"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.7+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2424884,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/fabric-api-0.116.7+1.21.1.jar",
+            "MD5": "6d844b1f5a6f67395912e81043ae3aed"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.11@jar",
+          "name": "Fusion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 515564,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/fusion-1.2.11-fabric-mc1.21.jar",
+            "MD5": "b7ecccd15e2911aaa77dbb9a22ce9a65"
+          }
+        },
+        {
+          "id": "glitchcore.fabric.core:glitchcore:2.1.0.0@jar",
+          "name": "GlitchCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329188,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/GlitchCore-fabric-1.21.1-2.1.0.0.jar",
+            "MD5": "85bff7eebe02a0c002dbc4e49a5ec33d"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.21-1.8@jar",
+          "name": "Gpu memory leak fix mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6016,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/gpumemleakfix-fabric-1.21-1.8.jar",
+            "MD5": "ccad6ba674f135d3cbb8f706d8a9a4e5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3564296,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/journeymap-fabric-1.21.1-6.0.0-beta.52.jar",
+            "MD5": "822597e140062585b3452a3d1b839a28"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.logprot:logprot:1.21-3.5@jar",
+          "name": "Logprot Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14813,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/logprot-fabric-1.21-3.5.jar",
+            "MD5": "12ab75b6bfbb7cc2ea62cf9f8a441987"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwbridges:3.1.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 656977,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-bridges-3.1.0-mc1.21.1fabric.jar",
+            "MD5": "5ff6f5c60541365bcd08bcd7d933388e"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwdoors:1.1.2@jar",
+          "name": "Macaw's Doors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1223064,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-doors-1.1.2-mc1.21.1fabric.jar",
+            "MD5": "e951ac7fa051a45dfd9f355bcd8d9e22"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfences:1.2.0@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 638820,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-fences-1.2.0-1.21.1fabric.jar",
+            "MD5": "2c6c1b5b6079bd0ef7ec1f4004ff318e"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfurnitures:3.4.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2084133,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-furniture-3.4.0-mc1.21.1fabric.jar",
+            "MD5": "aa8fc90c9256aebf3d3ad40af70fecd0"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwlights:1.1.2@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 505911,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-lights-1.1.2-mc1.21.1fabric.jar",
+            "MD5": "37b56f773ae4eb54dfe0ce56da3f1c3c"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwholidays:1.1.1@jar",
+          "name": "Macaw's Holidays",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 996059,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-mcwholidays-1.1.1-mc1.21.1fabric.jar",
+            "MD5": "5f6d8a542b2f99045e59ee78d18d33b9"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.1.1@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 767811,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-mcwpaths-1.1.1-mc1.21.1fabric.jar",
+            "MD5": "0371013b5d329158b015b03203eb8902"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwpaintings:1.0.5@jar",
+          "name": "Macaw's Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67933,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-paintings-1.0.5-1.21.1fabric.jar",
+            "MD5": "8b5f613d7b0a5f3d7bc08be94f27799b"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwroofs:2.3.2@jar",
+          "name": "Macaw's Roofs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1790000,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+            "MD5": "3f38e59c1d0102aa0bbc527390f4f21c"
+          }
+        },
+        {
+          "id": "com.mcwstairs.kikoz:mcwstairs:1.0.1@jar",
+          "name": "Macaw's Stairs and Balconies",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 508798,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-stairs-1.0.1-1.21.1fabric.jar",
+            "MD5": "3474572e105aa00622e4ad646c9b75d4"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwtrpdoors:1.1.4@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 561019,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-trapdoors-1.1.4-mc1.21.1fabric.jar",
+            "MD5": "7d5d62705c60f83c43bdc32a0bf9dba2"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwwindows:2.4.0@jar",
+          "name": "Macaw's Windows",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1279845,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-windows-2.4.0-1.21.1fabric.jar",
+            "MD5": "c22a11a1b600c9c823febdbd1f328702"
+          }
+        },
+        {
+          "id": "fr.samlegamer:mcwbiomesoplenty:1.21.1-1.2@jar",
+          "name": "Macaw's Biomes O' Plenty",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6837369,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcwbiomesoplenty-fabric-1.21.1-1.2.jar",
+            "MD5": "30958aec32d96ed9ddac5d53f684f611"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21-1.6@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62761,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/modelfix-1.21-1.6-fabric.jar",
+            "MD5": "7bbde6d3602d01d925df77c79e6ae477"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/modernfix-fabric-5.25.1+mc1.21.1.jar",
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.2@jar",
+          "name": "Moonlight Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1427874,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.2-fabric.jar",
+            "MD5": "1d29a99b53aaa10d8fa8f75138a73509"
+          }
+        },
+        {
+          "id": "com.supermartijn642:movingelevators:1.4.11@jar",
+          "name": "Moving Elevators",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 328844,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/movingelevators-1.4.11-fabric-mc1.21.jar",
+            "MD5": "c45ec0623f62f7cd75ff850d9bba4e47"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:1.21-4.1@jar",
+          "name": "Smooth chunk save Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13769,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/smoothchunk-fabric-1.21-4.1.jar",
+            "MD5": "c1a0083d7b2675b92c49ee009b3c36a6"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "rynnavinx.sspb:sspb:4.0.0@jar",
+          "name": "Sodium Shadowy Path Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62392,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodium-shadowy-path-blocks-fabric-4.0.0.jar",
+            "MD5": "4b722b4037290337b41ed9deeb7ae1dc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 899434,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumdynamiclights-fabric-1.0.10-1.21.1.jar",
+            "MD5": "8228b0be69423bb7cf8d3afc3ff65a51"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodiumleafculling:1.0.1@jar",
+          "name": "Sodium Leaf Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 299711,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumleafculling-fabric-1.0.1-1.21.1.jar",
+            "MD5": "dcd45d991f20f9cf7eea66ef99621ef9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 903592,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+            "MD5": "416f18c07f78f12c5de71d1cc87c14a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206993,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+            "MD5": "fff83455887d85c6f7ebac7bba24fa8f"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18+a@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 572596,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supermartijn642corelib-1.1.18a-fabric-mc1.21.jar",
+            "MD5": "95d9daeca0b1492175c12765c5fec9d9"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.21-3.4.20@jar",
+          "name": "Supplementaries",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12237041,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supplementaries-1.21-3.4.20-fabric.jar",
+            "MD5": "b817ed81f6fd375792318347aae3a290"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:4.1.0.8@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337989,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+            "MD5": "cf9f9ea80cd7f8febebbe1752f23b68f"
+          }
+        },
+        {
+          "id": "dev.spagurder:tutorialsuppressor:0.1.0@jar",
+          "name": "Tutorial Suppressor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9349,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/tutorialsuppressor-0.1.0+1.20.1-fabric.jar",
+            "MD5": "76e6846fb8d7a6212ba7027cae4df25e"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.6@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5339396,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/voicechat-fabric-1.21.1-2.6.6.jar",
+            "MD5": "6363d48c9b45e914d23c0f12b0c395c9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.srrapero720:waterframes:2.1.22@jar",
+          "name": "WaterFrames",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 266292,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/waterframes-FABRIC-mc1.21.1-v2.1.22.jar",
+            "MD5": "5277bc31004b1b93289857fe80f8f553"
+          }
+        },
+        {
+          "id": "org.watermedia.loaders:watermedia:2.1.36@jar",
+          "name": "WaterMedia",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37858040,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watermedia-2.1.36.jar",
+            "MD5": "4b517fafc374653b97bc1a2751944b67"
+          }
+        },
+        {
+          "id": "me.srrapero720:watervision:0.1.0-alpha@jar",
+          "name": "WaterVision",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 82210,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watervision-FB-mc1.21.1-v0.1.0-alpha.jar",
+            "MD5": "83bb7201ca88556eedee1f66cf15ce99"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.21.0-1.2.7@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 839492,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watut-fabric-1.21.0-1.2.7.jar",
+            "MD5": "00d9b67556a85016edab41e05443a5a9"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "localsinchang2-1.21.1",
+      "name": "신창서버2 로컬 서버",
+      "description": "팩트는 신창서버2 따잇하고 있다는거임",
+      "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/icon.png",
+      "version": "2.0.0",
+      "address": "localhost:10016",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "신창서버2 에서 쌀 캐는 중...",
+        "largeImageText": "점유율이 늘고 접속자가 늘어♪ 나는 쌀 다 팜~ 난 이미 쌀 다 팜~",
+        "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/discordicon.png"
+      },
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.0",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944012,
+            "MD5": "54ae672be359aec0a36411e60885634c",
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/fabric-loader/0.18.0/fabric-loader-0.18.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.0",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "11133d78b1d0eaf53fb219b9619965d3",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/versions/1.21.1-fabric-0.18.0/1.21.1-fabric-0.18.0.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fr.samlegamer:addonslib:1.21.1-1.8@jar",
+          "name": "AddonsLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123396,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/addonslib-fabric-1.21.1-1.8.jar",
+            "MD5": "7e729b939f2a752c9889fa4c094da9df"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.21-2.0.8@jar",
+          "name": "Amendments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1107124,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/amendments-1.21-2.0.8-fabric.jar",
+            "MD5": "4e278fdf1773eefa8a9c9462e00646f8"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform.fabric.proxy:armourers_workshop:3.2.7-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6218149,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/armourersworkshop-fabric-1.21.1-3.2.7-beta.jar",
+            "MD5": "238d60d81a74538418ecc6de953c2139"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:21.1.0@jar",
+          "name": "BetterCompatibilityChecker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 28309,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/BetterCompatibilityChecker-fabric-21.1.0+mc1.21.1.jar",
+            "MD5": "5b327b01ffcdcaafe6c33f785a430b7d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:biomesoplenty:21.1.0.12@jar",
+          "name": "BiomesOPlenty",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22349823,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/BiomesOPlenty-fabric-1.21.1-21.1.0.12.jar",
+            "MD5": "15b80bc6ac658a1e32fd32b2454dfa06"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163711,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/caramelChat-mc1.21.1-fabric-1.2.2.jar",
+            "MD5": "59c8ae912459442c192ff5537bf17f7a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.21.1-1.3.8@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2956258,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/coroutil-fabric-1.21.1-1.3.8.jar",
+            "MD5": "10985dc4266677b6c603fe91e635bb30"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.13.14@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1239340,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/CreativeCore_FABRIC_v2.13.14_mc1.21.1.jar",
+            "MD5": "55809417ae7e3debcd15147198808a17"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.21-2.9@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23781,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/cupboard-fabric-1.21-2.9.jar",
+            "MD5": "a94bfab1f1eff3cc9e7493f3aa8d2dbb"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:5.9.0@jar",
+          "name": "Easy NPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1630522,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/easy_npc-fabric-1.21.1-5.9.0.jar",
+            "MD5": "9fadf378d730b993ef7e58e7c61f96f6"
+          }
+        },
+        {
+          "id": "com.vsngarcia:elevatorid:1.21-1.11.1@jar",
+          "name": "ElevatorMod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185086,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/elevatorid-fabric-1.21-1.11.1.jar",
+            "MD5": "6046e099c6566ef6e419f3533d9cbea1"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471488,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entity_model_features_1.21-fabric-3.0.1.jar",
+            "MD5": "65fa7e106c04b6811820c11ecd7ffb1f"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.2@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 697674,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entity_texture_features_1.21-fabric-7.0.2.jar",
+            "MD5": "7801370edaf7b7f8e8e3818a8f1aa176"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 470161,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/entityculling-fabric-1.9.3-mc1.21.1.jar",
+            "MD5": "d5128d6312eaead8146c05ea3904c41a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:euphoriapatcher:1.7.4-r5.6.1-fabric@jar",
+          "name": "EuphoriaPatcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2293584,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionaloff/EuphoriaPatcher-1.7.4-r5.6.1-fabric.jar",
+            "MD5": "bd07970ea2e09849bf22ed37e3387096"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.7+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2424884,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/fabric-api-0.116.7+1.21.1.jar",
+            "MD5": "6d844b1f5a6f67395912e81043ae3aed"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.11@jar",
+          "name": "Fusion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 515564,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/fusion-1.2.11-fabric-mc1.21.jar",
+            "MD5": "b7ecccd15e2911aaa77dbb9a22ce9a65"
+          }
+        },
+        {
+          "id": "glitchcore.fabric.core:glitchcore:2.1.0.0@jar",
+          "name": "GlitchCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329188,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/GlitchCore-fabric-1.21.1-2.1.0.0.jar",
+            "MD5": "85bff7eebe02a0c002dbc4e49a5ec33d"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.21-1.8@jar",
+          "name": "Gpu memory leak fix mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6016,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/gpumemleakfix-fabric-1.21-1.8.jar",
+            "MD5": "ccad6ba674f135d3cbb8f706d8a9a4e5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3564296,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/journeymap-fabric-1.21.1-6.0.0-beta.52.jar",
+            "MD5": "822597e140062585b3452a3d1b839a28"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.logprot:logprot:1.21-3.5@jar",
+          "name": "Logprot Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14813,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/logprot-fabric-1.21-3.5.jar",
+            "MD5": "12ab75b6bfbb7cc2ea62cf9f8a441987"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwbridges:3.1.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 656977,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-bridges-3.1.0-mc1.21.1fabric.jar",
+            "MD5": "5ff6f5c60541365bcd08bcd7d933388e"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwdoors:1.1.2@jar",
+          "name": "Macaw's Doors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1223064,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-doors-1.1.2-mc1.21.1fabric.jar",
+            "MD5": "e951ac7fa051a45dfd9f355bcd8d9e22"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfences:1.2.0@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 638820,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-fences-1.2.0-1.21.1fabric.jar",
+            "MD5": "2c6c1b5b6079bd0ef7ec1f4004ff318e"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwfurnitures:3.4.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2084133,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-furniture-3.4.0-mc1.21.1fabric.jar",
+            "MD5": "aa8fc90c9256aebf3d3ad40af70fecd0"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwlights:1.1.2@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 505911,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-lights-1.1.2-mc1.21.1fabric.jar",
+            "MD5": "37b56f773ae4eb54dfe0ce56da3f1c3c"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwholidays:1.1.1@jar",
+          "name": "Macaw's Holidays",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 996059,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-mcwholidays-1.1.1-mc1.21.1fabric.jar",
+            "MD5": "5f6d8a542b2f99045e59ee78d18d33b9"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.1.1@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 767811,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-mcwpaths-1.1.1-mc1.21.1fabric.jar",
+            "MD5": "0371013b5d329158b015b03203eb8902"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwpaintings:1.0.5@jar",
+          "name": "Macaw's Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67933,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-paintings-1.0.5-1.21.1fabric.jar",
+            "MD5": "8b5f613d7b0a5f3d7bc08be94f27799b"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwroofs:2.3.2@jar",
+          "name": "Macaw's Roofs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1790000,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-roofs-2.3.2-mc1.21.1fabric.jar",
+            "MD5": "3f38e59c1d0102aa0bbc527390f4f21c"
+          }
+        },
+        {
+          "id": "com.mcwstairs.kikoz:mcwstairs:1.0.1@jar",
+          "name": "Macaw's Stairs and Balconies",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 508798,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-stairs-1.0.1-1.21.1fabric.jar",
+            "MD5": "3474572e105aa00622e4ad646c9b75d4"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwtrpdoors:1.1.4@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 561019,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-trapdoors-1.1.4-mc1.21.1fabric.jar",
+            "MD5": "7d5d62705c60f83c43bdc32a0bf9dba2"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwwindows:2.4.0@jar",
+          "name": "Macaw's Windows",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1279845,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcw-windows-2.4.0-1.21.1fabric.jar",
+            "MD5": "c22a11a1b600c9c823febdbd1f328702"
+          }
+        },
+        {
+          "id": "fr.samlegamer:mcwbiomesoplenty:1.21.1-1.2@jar",
+          "name": "Macaw's Biomes O' Plenty",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6837369,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/mcwbiomesoplenty-fabric-1.21.1-1.2.jar",
+            "MD5": "30958aec32d96ed9ddac5d53f684f611"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21-1.6@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62761,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/modelfix-1.21-1.6-fabric.jar",
+            "MD5": "7bbde6d3602d01d925df77c79e6ae477"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/modernfix-fabric-5.25.1+mc1.21.1.jar",
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.2@jar",
+          "name": "Moonlight Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1427874,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.2-fabric.jar",
+            "MD5": "1d29a99b53aaa10d8fa8f75138a73509"
+          }
+        },
+        {
+          "id": "com.supermartijn642:movingelevators:1.4.11@jar",
+          "name": "Moving Elevators",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 328844,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/movingelevators-1.4.11-fabric-mc1.21.jar",
+            "MD5": "c45ec0623f62f7cd75ff850d9bba4e47"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:1.21-4.1@jar",
+          "name": "Smooth chunk save Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13769,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/smoothchunk-fabric-1.21-4.1.jar",
+            "MD5": "c1a0083d7b2675b92c49ee009b3c36a6"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "rynnavinx.sspb:sspb:4.0.0@jar",
+          "name": "Sodium Shadowy Path Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62392,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodium-shadowy-path-blocks-fabric-4.0.0.jar",
+            "MD5": "4b722b4037290337b41ed9deeb7ae1dc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 899434,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumdynamiclights-fabric-1.0.10-1.21.1.jar",
+            "MD5": "8228b0be69423bb7cf8d3afc3ff65a51"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodiumleafculling:1.0.1@jar",
+          "name": "Sodium Leaf Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 299711,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumleafculling-fabric-1.0.1-1.21.1.jar",
+            "MD5": "dcd45d991f20f9cf7eea66ef99621ef9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 903592,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+            "MD5": "416f18c07f78f12c5de71d1cc87c14a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206993,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+            "MD5": "fff83455887d85c6f7ebac7bba24fa8f"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18+a@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 572596,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supermartijn642corelib-1.1.18a-fabric-mc1.21.jar",
+            "MD5": "95d9daeca0b1492175c12765c5fec9d9"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.21-3.4.20@jar",
+          "name": "Supplementaries",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12237041,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/supplementaries-1.21-3.4.20-fabric.jar",
+            "MD5": "b817ed81f6fd375792318347aae3a290"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:4.1.0.8@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337989,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+            "MD5": "cf9f9ea80cd7f8febebbe1752f23b68f"
+          }
+        },
+        {
+          "id": "dev.spagurder:tutorialsuppressor:0.1.0@jar",
+          "name": "Tutorial Suppressor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9349,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/tutorialsuppressor-0.1.0+1.20.1-fabric.jar",
+            "MD5": "76e6846fb8d7a6212ba7027cae4df25e"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.6@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5339396,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/voicechat-fabric-1.21.1-2.6.6.jar",
+            "MD5": "6363d48c9b45e914d23c0f12b0c395c9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.srrapero720:waterframes:2.1.22@jar",
+          "name": "WaterFrames",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 266292,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/waterframes-FABRIC-mc1.21.1-v2.1.22.jar",
+            "MD5": "5277bc31004b1b93289857fe80f8f553"
+          }
+        },
+        {
+          "id": "org.watermedia.loaders:watermedia:2.1.36@jar",
+          "name": "WaterMedia",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37858040,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watermedia-2.1.36.jar",
+            "MD5": "4b517fafc374653b97bc1a2751944b67"
+          }
+        },
+        {
+          "id": "me.srrapero720:watervision:0.1.0-alpha@jar",
+          "name": "WaterVision",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 82210,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watervision-FB-mc1.21.1-v0.1.0-alpha.jar",
+            "MD5": "83bb7201ca88556eedee1f66cf15ce99"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.21.0-1.2.7@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 839492,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/watut-fabric-1.21.0-1.2.7.jar",
+            "MD5": "00d9b67556a85016edab41e05443a5a9"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        }
+      ]
+    },
     {
       "id": "Localhost",
       "name": "Localhost:25565",
@@ -19,1032 +1485,6 @@
         "shortId": "혼자 몰래 즐기는 중...",
         "largeImageText": "게임 주작은 뭐야 씨발년!",
         "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/Localhost/discordicon.png"
-      },
-      "mainServer": true,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.22",
-          "name": "Minecraft Forge (lowcodelanguage)",
-          "type": "ForgeHosted",
-          "classpath": true,
-          "artifact": {
-            "size": 7401,
-            "MD5": "81dc6bb506829755e3d29fbaab4d9bbb",
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.22/lowcodelanguage-1.20.1-47.3.22.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.1-47.3.22",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 16624,
-                "MD5": "5b2f060ab24af9e927398b29135aa7c5",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/versions/1.20.1-forge-47.3.22/1.20.1-forge-47.3.22.json"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.22",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 118579,
-                "MD5": "e00b6331668c2b16cf6dc2fca5579157",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.22/fmlcore-1.20.1-47.3.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.22",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 16857,
-                "MD5": "b73d7c55ab0a5af07629a27e8398d774",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.22/javafmllanguage-1.20.1-47.3.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.22",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 5001,
-                "MD5": "8b86e5f5aabc03162edeaad6b241997d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.22/mclanguage-1.20.1-47.3.22.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.22:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 2761726,
-                "MD5": "d11524d18b5274cc5d9de749d34f1e37",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.22:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 4794071,
-                "MD5": "d13b796e89ac734128d8fa5b2d98de47",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18842082,
-                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12592249,
-                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 10436626,
-                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.10",
-              "name": "Minecraft Forge (securejarhandler)",
-              "type": "Library",
-              "artifact": {
-                "size": 88749,
-                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.7.1",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.7.1",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:6.0.5",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:7.0.1",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 29831,
-                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.2.4",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 31872,
-                "MD5": "5295505357ba9b98450c5e3121f82191",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.9",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130343,
-                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool:1.1.5:api",
-              "name": "Minecraft Forge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2572,
-                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.4",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167292,
-                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.22",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 265988,
-                "MD5": "78a50d4f473dead4d2f7464c48b115f6",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.22/fmlloader-1.20.1-47.3.22.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.22",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 170460,
-                "MD5": "7cfddfbe25d1b46170b2e3850c91f03d",
-                "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.22/fmlearlydisplay-1.20.1-47.3.22.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "dev.architectury:architectury:9.2.14@jar",
-          "name": "Architectury",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 580602,
-            "url": "https://www.curseforge.com/api/v1/mods/419699/files/5137938/download",
-            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
-          }
-        },
-        {
-          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.1.4@jar",
-          "name": "Armourer's Workshop",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3565266,
-            "url": "https://www.curseforge.com/api/v1/mods/229523/files/5377672/download",
-            "MD5": "3d720853815f7ed3c77e6bdab1e9e250"
-          }
-        },
-        {
-          "id": "io.github.foundationgames:automobility:0.4.2+1.20.1-forge@jar",
-          "name": "Automobility",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1054094,
-            "url": "https://www.curseforge.com/api/v1/mods/658286/files/4613497/download",
-            "MD5": "fb16b053cc0eda55bb287c1aa926dcb5"
-          }
-        },
-        {
-          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
-          "name": "CaramelChat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 348530,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/forgemods/optionalon/caramelChat-mc1.20.1-forge-1.2.0.jar",
-            "MD5": "5d362f779efdb0384f8b43815fd46e0c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "de.mrjulsen:dragnsounds:1.20.1-0.1.10@jar",
-          "name": "DragNSounds API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 197041447,
-            "url": "https://www.curseforge.com/api/v1/mods/1050124/files/5528597/download",
-            "MD5": "80992b4b58537b7465ea78b3d3b1f4b4"
-          }
-        },
-        {
-          "id": "de.markusbordihn.easynpc:easy_npc:5.9.0@jar",
-          "name": "Easy NPC",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1610362,
-            "url": "https://www.curseforge.com/api/v1/mods/559312/files/6008907/download",
-            "MD5": "d1548323ff014a8bcdbf00ac846a430d"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1320675,
-            "url": "https://www.curseforge.com/api/v1/mods/908741/files/5681725/download",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:framework:0.7.12@jar",
-          "name": "Framework",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 308420,
-            "url": "https://www.curseforge.com/api/v1/mods/549225/files/5911986/download",
-            "MD5": "1b6b6ccc60c5a6ef2c232553f8a060f4"
-          }
-        },
-        {
-          "id": "journeymap:journeymap:5.10.3@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7160405,
-            "url": "https://www.curseforge.com/api/v1/mods/32274/files/5789363/download",
-            "MD5": "2181bd6b7161f06726560b9382235611"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2851119,
-            "url": "https://www.curseforge.com/api/v1/mods/581495/files/6020952/download",
-            "MD5": "1dd891634ac21591b5a692471f112572"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.8@jar",
-          "name": "MrCrayfish's Furniture Mod: Refurbished",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6681214,
-            "url": "https://www.curseforge.com/api/v1/mods/897116/files/5893833/download",
-            "MD5": "135e50d0323ff403e7771649419bc69d"
-          }
-        },
-        {
-          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
-          "name": "Sodium Dynamic Lights",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 511601,
-            "url": "https://www.curseforge.com/api/v1/mods/551736/files/6044481/download",
-            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.9@jar",
-          "name": "Sodium Options API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 444381,
-            "url": "https://www.curseforge.com/api/v1/mods/1103431/files/6041598/download",
-            "MD5": "f336a735daaba20966fe3ce0636348d6"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.github.ngoedix.watchvideo:videoplayer:3.0.5@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 213457,
-            "url": "https://www.curseforge.com/api/v1/mods/645407/files/5771085/download",
-            "MD5": "19725092b398a350a1aaa76a13a5e736"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.27@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7738897,
-            "url": "https://www.curseforge.com/api/v1/mods/416089/files/5998323/download",
-            "MD5": "4ad3415a2af00734c494d7200da5b464"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.srrapero720.watermedia.loaders:watermedia:2.0.75@jar",
-          "name": "WaterMedia",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 27600243,
-            "url": "https://www.curseforge.com/api/v1/mods/869524/files/5811082/download",
-            "MD5": "05ed7ef455800168b37d15da335a0553"
-          }
-        },
-        {
-          "id": "armourers_workshop-client.toml",
-          "name": "armourers_workshop-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 4867,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/armourers_workshop-client.toml",
-            "MD5": "ac1815ee05ea5995a0989de8c83d1268",
-            "path": "config/armourers_workshop-client.toml"
-          }
-        },
-        {
-          "id": "armourers_workshop-common.toml",
-          "name": "armourers_workshop-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 4212,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/armourers_workshop-common.toml",
-            "MD5": "ef6a19f0dfd920bcefd7e34862b1deb0",
-            "path": "config/armourers_workshop-common.toml"
-          }
-        },
-        {
-          "id": "dragnsounds-client.toml",
-          "name": "dragnsounds-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 223,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/dragnsounds-client.toml",
-            "MD5": "2ba5f7fdce682b0e4fb3ce65b44bd9d4",
-            "path": "config/dragnsounds-client.toml"
-          }
-        },
-        {
-          "id": "dragnsounds-common.toml",
-          "name": "dragnsounds-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 582,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/dragnsounds-common.toml",
-            "MD5": "8d506cb821432ae280abad650cdf6544",
-            "path": "config/dragnsounds-common.toml"
-          }
-        },
-        {
-          "id": "087c68d3-9c96-4745-9366-bb379a820c41.npc.nbt",
-          "name": "087c68d3-9c96-4745-9366-bb379a820c41.npc.nbt",
-          "type": "File",
-          "artifact": {
-            "size": 1655,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/preset/humanoid/087c68d3-9c96-4745-9366-bb379a820c41.npc.nbt",
-            "MD5": "5bcc3930f5170408836eb23035acebbe",
-            "path": "config/easy_npc/preset/humanoid/087c68d3-9c96-4745-9366-bb379a820c41.npc.nbt"
-          }
-        },
-        {
-          "id": "render_entity_type_support.cfg",
-          "name": "render_entity_type_support.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 5821,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/render_entity_type_support.cfg",
-            "MD5": "415ec4e32ebac4b5ce55c6e534ff68d8",
-            "path": "config/easy_npc/render_entity_type_support.cfg"
-          }
-        },
-        {
-          "id": "allay_template.png",
-          "name": "allay_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 246,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/allay/allay_template.png",
-            "MD5": "dc449d0dd6cb93d91fa6e34ecd44376a",
-            "path": "config/easy_npc/skin/allay/allay_template.png"
-          }
-        },
-        {
-          "id": "cat_template.png",
-          "name": "cat_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 283,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/cat/cat_template.png",
-            "MD5": "ddb9d8f03724aa1fe201fd7fbefb81da",
-            "path": "config/easy_npc/skin/cat/cat_template.png"
-          }
-        },
-        {
-          "id": "chicken_template.png",
-          "name": "chicken_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 287,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/chicken/chicken_template.png",
-            "MD5": "f06078d2850eb0020f2e86dd93c84a5a",
-            "path": "config/easy_npc/skin/chicken/chicken_template.png"
-          }
-        },
-        {
-          "id": "fairy_template.png",
-          "name": "fairy_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 434,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/fairy/fairy_template.png",
-            "MD5": "531b238034eb6fdcf494378d6de62d69",
-            "path": "config/easy_npc/skin/fairy/fairy_template.png"
-          }
-        },
-        {
-          "id": "humanoid_template.png",
-          "name": "humanoid_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 360,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/humanoid/humanoid_template.png",
-            "MD5": "a39224182358dcbf6615b9faeb732933",
-            "path": "config/easy_npc/skin/humanoid/humanoid_template.png"
-          }
-        },
-        {
-          "id": "humanoid_slim_template.png",
-          "name": "humanoid_slim_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 384,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
-            "MD5": "41f831333d68c3a4535adbe574f0511c",
-            "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png"
-          }
-        },
-        {
-          "id": "illager_template.png",
-          "name": "illager_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 300,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/illager/illager_template.png",
-            "MD5": "62e2eafe9879c26a5d39f6eed5a0d4c0",
-            "path": "config/easy_npc/skin/illager/illager_template.png"
-          }
-        },
-        {
-          "id": "iron_golem_template.png",
-          "name": "iron_golem_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 451,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/iron_golem/iron_golem_template.png",
-            "MD5": "041e19a3a9e328e569c1572c60bf7f82",
-            "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png"
-          }
-        },
-        {
-          "id": "orc_template.png",
-          "name": "orc_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 521,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/orc/orc_template.png",
-            "MD5": "529d5d314ad4dc8f697f7341f35cab74",
-            "path": "config/easy_npc/skin/orc/orc_template.png"
-          }
-        },
-        {
-          "id": "pig_template.png",
-          "name": "pig_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 270,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/pig/pig_template.png",
-            "MD5": "cfc2538d1df812a5ee4ced14b78f9fd3",
-            "path": "config/easy_npc/skin/pig/pig_template.png"
-          }
-        },
-        {
-          "id": "piglin_template.png",
-          "name": "piglin_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 361,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/piglin/piglin_template.png",
-            "MD5": "54ae451400c57b4832f976487e7bf629",
-            "path": "config/easy_npc/skin/piglin/piglin_template.png"
-          }
-        },
-        {
-          "id": "skeleton_template.png",
-          "name": "skeleton_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 259,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/skeleton/skeleton_template.png",
-            "MD5": "b6f689ff48f8cd4b03a51947133a3857",
-            "path": "config/easy_npc/skin/skeleton/skeleton_template.png"
-          }
-        },
-        {
-          "id": "villager_template.png",
-          "name": "villager_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 357,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/villager/villager_template.png",
-            "MD5": "30e84778924e6c66aef598b8a3cd728a",
-            "path": "config/easy_npc/skin/villager/villager_template.png"
-          }
-        },
-        {
-          "id": "villager_without_hat_template.png",
-          "name": "villager_without_hat_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 331,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/villager/villager_without_hat_template.png",
-            "MD5": "3d8bca495a0fad6240e900d343c9f1d7",
-            "path": "config/easy_npc/skin/villager/villager_without_hat_template.png"
-          }
-        },
-        {
-          "id": "wolf_template.png",
-          "name": "wolf_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 321,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/wolf/wolf_template.png",
-            "MD5": "0adf39c4b15ec11850e85fdfcd8e0a59",
-            "path": "config/easy_npc/skin/wolf/wolf_template.png"
-          }
-        },
-        {
-          "id": "zombie_template.png",
-          "name": "zombie_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 292,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/zombie/zombie_template.png",
-            "MD5": "a38b0b7043eb7c0e91379628aeed1db2",
-            "path": "config/easy_npc/skin/zombie/zombie_template.png"
-          }
-        },
-        {
-          "id": "zombie_villager_template.png",
-          "name": "zombie_villager_template.png",
-          "type": "File",
-          "artifact": {
-            "size": 356,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
-            "MD5": "b0748467bd2149105ad4d922c7799ed0",
-            "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png"
-          }
-        },
-        {
-          "id": "fml.toml",
-          "name": "fml.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1148,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/fml.toml",
-            "MD5": "c12cf21cfc5d310aafcb72cd6d9b4ece",
-            "path": "config/fml.toml"
-          }
-        },
-        {
-          "id": "forge-client.toml",
-          "name": "forge-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1628,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/forge-client.toml",
-            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
-            "path": "config/forge-client.toml"
-          }
-        },
-        {
-          "id": "packetfixer.properties",
-          "name": "packetfixer.properties",
-          "type": "File",
-          "artifact": {
-            "size": 375,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/packetfixer.properties",
-            "MD5": "4b7affd868eff5a2003646397d4c0d78",
-            "path": "config/packetfixer.properties"
-          }
-        },
-        {
-          "id": "refurbished_furniture.client.toml",
-          "name": "refurbished_furniture.client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1005,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/refurbished_furniture.client.toml",
-            "MD5": "59ddda1e30a6cd2b4d6436ca52df738d",
-            "path": "config/refurbished_furniture.client.toml"
-          }
-        },
-        {
-          "id": "translations.properties",
-          "name": "translations.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1182,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat/translations.properties",
-            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
-            "path": "config/voicechat/translations.properties"
-          }
-        },
-        {
-          "id": "username-cache.json",
-          "name": "username-cache.json",
-          "type": "File",
-          "artifact": {
-            "size": 3180,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat/username-cache.json",
-            "MD5": "d98e31c5055b0ce6f40f86ddd84220f8",
-            "path": "config/voicechat/username-cache.json"
-          }
-        },
-        {
-          "id": "voicechat-client.properties",
-          "name": "voicechat-client.properties",
-          "type": "File",
-          "artifact": {
-            "size": 4413,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "6ae66a0dcd1a53e5f810bbea617fb5f7",
-            "path": "config/voicechat/voicechat-client.properties"
-          }
-        },
-        {
-          "id": "voicechat-server.properties",
-          "name": "voicechat-server.properties",
-          "type": "File",
-          "artifact": {
-            "size": 2502,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "edc34d8f2792ff7e5ce1246f9cd1e641",
-            "path": "config/voicechat/voicechat-server.properties"
-          }
-        },
-        {
-          "id": "voicechat-volumes.properties",
-          "name": "voicechat-volumes.properties",
-          "type": "File",
-          "artifact": {
-            "size": 37,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
-            "path": "config/voicechat/voicechat-volumes.properties"
-          }
-        },
-        {
-          "id": "voicechat-client.toml",
-          "name": "voicechat-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 94,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/voicechat-client.toml",
-            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
-            "path": "config/voicechat-client.toml"
-          }
-        },
-        {
-          "id": "loading.gif",
-          "name": "loading.gif",
-          "type": "File",
-          "artifact": {
-            "size": 67758,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/config/watermedia/assets/loading.gif",
-            "MD5": "30edfee6c054a4e6d37c900541e0b139",
-            "path": "config/watermedia/assets/loading.gif"
-          }
-        },
-        {
-          "id": "BSL_v8.4.zip",
-          "name": "BSL_v8.4.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1105442,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/shaderpacks/BSL_v8.4.zip",
-            "MD5": "9cbe8c2b70a992a50853875482eec66a",
-            "path": "shaderpacks/BSL_v8.4.zip"
-          }
-        },
-        {
-          "id": "ComplementaryReimagined_r5.3.zip",
-          "name": "ComplementaryReimagined_r5.3.zip",
-          "type": "File",
-          "artifact": {
-            "size": 446656,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
-            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
-            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
-          }
-        },
-        {
-          "id": "ComplementaryUnbound_r5.3.zip",
-          "name": "ComplementaryUnbound_r5.3.zip",
-          "type": "File",
-          "artifact": {
-            "size": 446661,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.3.zip",
-            "MD5": "50893f00c06b63dfd140dbcac22cc69f",
-            "path": "shaderpacks/ComplementaryUnbound_r5.3.zip"
-          }
-        },
-        {
-          "id": "MakeUp-UltraFast-9.1b.zip",
-          "name": "MakeUp-UltraFast-9.1b.zip",
-          "type": "File",
-          "artifact": {
-            "size": 367518,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/files/shaderpacks/MakeUp-UltraFast-9.1b.zip",
-            "MD5": "fe94f609907d89a91a6ad4b7a6bc87d0",
-            "path": "shaderpacks/MakeUp-UltraFast-9.1b.zip"
-          }
-        }
-      ]
-    },
-    {
-      "id": "SinChangServer-1.20.1",
-      "name": "신창서버 (Minecraft 1.20.1)",
-      "description": "신창서버 Unofficial Server. 개발자가 몰래 서버 돌리는 중.",
-      "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/icon.png",
-      "version": "1.1.0",
-      "address": "sinchang.yuaru.kr:25565",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "Minecraft 창팝맵 신창서버 많은 관심과 사랑 부탁드립니다!",
-        "largeImageText": "젠장 또 신창섭이야, 나는 숭배해야만 해.",
-        "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/discordicon.png"
       },
       "mainServer": false,
       "autoconnect": true,
@@ -1611,9 +2051,9 @@
           "name": "VideoPlayer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 213457,
-            "url": "https://www.curseforge.com/api/v1/mods/645407/files/5771085/download",
-            "MD5": "19725092b398a350a1aaa76a13a5e736"
+            "size": 216887,
+            "url": "https://github.com/mynam333/SinChangLauncher/raw/refs/heads/master/SCServer/servers/SinChangServer-1.20.1/forgemods/required/VideoPlayer-3.0.6-FORGE-1.20.X.jar",
+            "MD5": "0ccb3fd9ecf54b991768c0321a95bb01"
           }
         },
         {
@@ -1630,13 +2070,13 @@
           }
         },
         {
-          "id": "me.srrapero720.watermedia.loaders:watermedia:2.0.75@jar",
+          "id": "org.watermedia.loaders:watermedia:2.1.22@jar",
           "name": "WaterMedia",
           "type": "ForgeMod",
           "artifact": {
-            "size": 27600243,
-            "url": "https://www.curseforge.com/api/v1/mods/869524/files/5811082/download",
-            "MD5": "05ed7ef455800168b37d15da335a0553"
+            "size": 37850594,
+            "url": "https://www.curseforge.com/api/v1/mods/869524/files/6310835/download",
+            "MD5": "c0d2f7ec54baca365980a1299e4ac36e"
           }
         },
         {
