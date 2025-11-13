@@ -542,6 +542,16 @@
           }
         },
         {
+          "id": "com.aizistral:nochatreports:1.21.1-v2.9.1@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 309410,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/NoChatReports-FABRIC-1.21.1-v2.9.1.jar",
+            "MD5": "2dce5b67904bc681b1a166b49e66efdc"
+          }
+        },
+        {
           "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
           "name": "Reese's Sodium Options",
           "type": "FabricMod",
@@ -759,7 +769,7 @@
       "description": "팩트는 신창서버2 따잇하고 있다는거임",
       "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/icon.png",
       "version": "2.0.0",
-      "address": "localhost:10016",
+      "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "신창서버2 에서 쌀 캐는 중...",
@@ -1285,6 +1295,16 @@
             "size": 328844,
             "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/movingelevators-1.4.11-fabric-mc1.21.jar",
             "MD5": "c45ec0623f62f7cd75ff850d9bba4e47"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.1-v2.9.1@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 309410,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/NoChatReports-FABRIC-1.21.1-v2.9.1.jar",
+            "MD5": "2dce5b67904bc681b1a166b49e66efdc"
           }
         },
         {
