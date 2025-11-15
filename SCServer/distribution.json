@@ -362,6 +362,19 @@
           }
         },
         {
+          "id": "fi.dy.masa:litematica:0.19.59@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1358084,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/litematica-fabric-1.21-0.19.59.jar",
+            "MD5": "dc3eb9d286c308f4d166b95af2831f80"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.logprot:logprot:1.21-3.5@jar",
           "name": "Logprot Mod",
           "type": "FabricMod",
@@ -369,6 +382,19 @@
             "size": 14813,
             "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/logprot-fabric-1.21-3.5.jar",
             "MD5": "12ab75b6bfbb7cc2ea62cf9f8a441987"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.21.9@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1207522,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/optionalon/malilib-fabric-1.21-0.21.9.jar",
+            "MD5": "3b202bdbdb7b42d0343b7bb25dea9a7f"
+          },
+          "required": {
+            "value": false
           }
         },
         {

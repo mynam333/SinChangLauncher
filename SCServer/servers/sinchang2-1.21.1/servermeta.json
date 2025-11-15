@@ -4,12 +4,12 @@
     "version": "2.0.0",
     "name": "[개발중] 신창서버2",
     "description": "팩트는 신창서버2 따잇하고 있다는거임",
-    "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/icon.png",
-    "address": "devnetwork.dotsminestudio.kr:10016",
+    "icon": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/icon.png",
+    "address": "sinchangserver.dotsminestudio.kr",
     "discord": {
       "shortId": "신창서버2 에서 쌀 캐는 중...",
       "largeImageText": "점유율이 늘고 접속자가 늘어♪ 나는 쌀 다 팜~ 난 이미 쌀 다 팜~",
-      "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/SinChang2-1.21.1/discordicon.png"
+      "largeImageKey": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/discordicon.png"
     },
     "mainServer": true,
     "autoconnect": true
