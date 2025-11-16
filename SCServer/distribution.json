@@ -647,7 +647,8 @@
             "MD5": "c957b2dd519be92d03c7a0ee87174a72"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -658,6 +659,16 @@
             "size": 485586,
             "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/resourcefullib-fabric-1.21-3.0.12.jar",
             "MD5": "89dac4248b76747800fbc00fa063825e"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:2.0.0-b2.1@jar",
+          "name": "Small Ships",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2412151,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/smallships-fabric-1.21.1-2.0.0-b2.1.jar",
+            "MD5": "19c61f5bcdf08f1be5b84cc41075610e"
           }
         },
         {
@@ -1474,6 +1485,16 @@
             "size": 485586,
             "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/resourcefullib-fabric-1.21-3.0.12.jar",
             "MD5": "89dac4248b76747800fbc00fa063825e"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:2.0.0-b2.1@jar",
+          "name": "Small Ships",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2412151,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/smallships-fabric-1.21.1-2.0.0-b2.1.jar",
+            "MD5": "19c61f5bcdf08f1be5b84cc41075610e"
           }
         },
         {
