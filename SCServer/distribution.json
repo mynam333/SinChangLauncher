@@ -598,13 +598,13 @@
           }
         },
         {
-          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.2@jar",
+          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.5@jar",
           "name": "Moonlight Lib",
           "type": "FabricMod",
           "artifact": {
-            "size": 1427874,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.2-fabric.jar",
-            "MD5": "1d29a99b53aaa10d8fa8f75138a73509"
+            "size": 1428605,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.5-fabric.jar",
+            "MD5": "b243899e11ba79055b688bf829ca5d05"
           }
         },
         {
@@ -1438,13 +1438,13 @@
           }
         },
         {
-          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.2@jar",
+          "id": "net.mehvahdjukaar:moonlight:1.21-2.26.5@jar",
           "name": "Moonlight Lib",
           "type": "FabricMod",
           "artifact": {
-            "size": 1427874,
-            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.2-fabric.jar",
-            "MD5": "1d29a99b53aaa10d8fa8f75138a73509"
+            "size": 1428605,
+            "url": "https://raw.githubusercontent.com/mynam333/SinChangLauncher/refs/heads/master/SCServer/servers/sinchang2-1.21.1/fabricmods/required/moonlight-1.21-2.26.5-fabric.jar",
+            "MD5": "b243899e11ba79055b688bf829ca5d05"
           }
         },
         {
